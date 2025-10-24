@@ -19,8 +19,8 @@ def sum_dct(*dicts):
                 merged_dict[key] = value
     return merged_dict
 
-dict1 = {'a': 5, 'b': 10}
-dict2 = {'a': 9, 'c': 3}
+dict1 = {'a': 5, 'b': 10, "d":12}
+dict2 = {'a': 9, 'c': 3, "d":5}
 
 print("max_dct result:", max_dct(dict1, dict2))
 print("sum_dct result:", sum_dct(dict1, dict2))
